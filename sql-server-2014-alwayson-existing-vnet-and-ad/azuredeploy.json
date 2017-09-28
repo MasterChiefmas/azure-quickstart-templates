@@ -20,28 +20,28 @@
       "metadata": {
         "description": "Type of new Storage Accounts (Standard_LRS, Standard_GRS, Standard_RAGRS or Premium_LRS) to be created to store VM disks"
       },
-      "defaultValue": "Premium_LRS"
+      "defaultValue": "Standard_LRS"
     },
     "sqlVMSize": {
       "type": "string",
       "metadata": {
         "description": "Size of the SQL VMs to be created"
       },
-      "defaultValue": "Standard_DS3_V2"
+      "defaultValue": "Standard_B2ms"
     },
     "sqlWitnessVMSize": {
       "type": "string",
       "metadata": {
         "description": "Size of the Witness VM to be created"
       },
-      "defaultValue": "Standard_DS1_V2"
+      "defaultValue": "Standard_B1ms"
     },
     "existingDomainName": {
       "type": "string",
       "metadata": {
         "description": "DNS domain name for existing Active Directory domain"
       },
-      "defaultValue": "contoso.com"
+      "defaultValue": "TSCCORP"
     },
     "adminUsername": {
       "type": "string",
@@ -92,14 +92,14 @@
       "metadata": {
         "description": "IP address of ILB for the SQL Server AlwaysOn listener to be created"
       },
-      "defaultValue": "10.0.1.10"
+      "defaultValue": "10.120.128.200"
     },
     "_artifactsLocation": {
       "type": "string",
       "metadata": {
         "description": "Location of resources that the script is dependent on such as linked templates and DSC modules"
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/sql-server-2014-alwayson-existing-vnet-and-ad"
+      "defaultValue": "https://raw.githubusercontent.com/MasterChiefmas/azure-quickstart-templates/master/sql-server-2014-alwayson-existing-vnet-and-ad"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
