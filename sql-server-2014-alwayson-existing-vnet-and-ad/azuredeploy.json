@@ -41,7 +41,7 @@
       "metadata": {
         "description": "DNS domain name for existing Active Directory domain"
       },
-      "defaultValue": "TSCCORP"
+      "defaultValue": "techsmith.com"
     },
     "adminUsername": {
       "type": "string",
