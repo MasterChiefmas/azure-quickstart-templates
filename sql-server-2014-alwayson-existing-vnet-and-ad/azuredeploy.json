@@ -92,7 +92,7 @@
       "metadata": {
         "description": "IP address of ILB for the SQL Server AlwaysOn listener to be created"
       },
-      "defaultValue": "10.120.128.200"
+      "defaultValue": "10.120.128.201"
     },
     "_artifactsLocation": {
       "type": "string",
