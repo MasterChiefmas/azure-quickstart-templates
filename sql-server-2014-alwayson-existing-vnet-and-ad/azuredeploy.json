@@ -20,21 +20,21 @@
       "metadata": {
         "description": "Type of new Storage Accounts (Standard_LRS, Standard_GRS, Standard_RAGRS or Premium_LRS) to be created to store VM disks"
       },
-      "defaultValue": "Standard_LRS"
+      "defaultValue": "Premium_LRS"
     },
     "sqlVMSize": {
       "type": "string",
       "metadata": {
         "description": "Size of the SQL VMs to be created"
       },
-      "defaultValue": "Standard_B2ms"
+      "defaultValue": "Standard_D11_v2"
     },
     "sqlWitnessVMSize": {
       "type": "string",
       "metadata": {
         "description": "Size of the Witness VM to be created"
       },
-      "defaultValue": "Standard_B1ms"
+      "defaultValue": "Standard_D2"
     },
     "existingDomainName": {
       "type": "string",
@@ -92,7 +92,7 @@
       "metadata": {
         "description": "IP address of ILB for the SQL Server AlwaysOn listener to be created"
       },
-      "defaultValue": "10.120.128.201"
+      "defaultValue": "10.110.131.70"
     },
     "_artifactsLocation": {
       "type": "string",
